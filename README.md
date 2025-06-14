@@ -1,12 +1,29 @@
-# React + Vite
+# 📝 React To-Do Cards App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Simple card-style to-do list built with React and Vite.
 
-Currently, two official plugins are available:
+![image](https://github.com/user-attachments/assets/fd589c12-6c1d-4ce4-a1db-c16639f602ab)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Quick Start
+git clone [https://github.com/igorksk/todo-list-app.git](https://github.com/igorksk/todo-list-app.git)
 
-## Expanding the ESLint configuration
+cd todo-list-app
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+npm install
+
+npm run dev
+
+App runs at: http://localhost:5173/
+
+## ✨ Features
+Add/remove tasks as cards
+
+Auto-incrementing task IDs
+
+Clean modern UI with CSS
+
+## 🛠️ Tech Stack
+React + Vite
+
+CSS (no frameworks)
+

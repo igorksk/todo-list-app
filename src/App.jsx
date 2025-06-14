@@ -17,7 +17,7 @@ function App() {
     
       <button 
         className="add-btn"
-        onClick={() => setCards(list => [...list, Math.max(...list) + 1])}
+        onClick={() => setCards(list => [...list, Math.max(0, ...list) + 1])}
       >
         Add Card
       </button>
